@@ -1,0 +1,35 @@
+name: Report a bug
+description: Report a repository problem or a future application bug using sanitized evidence.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        No application release exists yet. Do not attach songs, full lyrics, private paths,
+        credentials or raw personal logs. For vulnerabilities, read SECURITY.md and use private reporting.
+  - type: input
+    id: revision
+    attributes:
+      label: Affected revision or version
+      description: Supply the commit or version; do not guess.
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform and relevant tool versions
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Sanitized reproduction and evidence
+      description: Use synthetic or minimized examples; no sensitive attachments.
+    validations:
+      required: true

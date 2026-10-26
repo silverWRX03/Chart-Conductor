@@ -1,0 +1,24 @@
+name: Suggest a feature
+description: Propose a change without uploading music or personal files.
+title: "[Idea]: "
+body:
+  - type: markdown
+    attributes:
+      value: Read the charter and roadmap first. Do not attach music, full lyrics or personal data.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and intended user
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior and alternatives
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Privacy, security and licensing considerations
+      description: State uncertainties and decisions needed; do not assume rights to media or models.

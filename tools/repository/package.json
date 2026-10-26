@@ -1,0 +1,17 @@
+{
+  "name": "chart-conductor-repository-checks",
+  "private": true,
+  "version": "0.0.0",
+  "license": "AGPL-3.0-or-later",
+  "description": "Development-only repository checks; not an application stack decision",
+  "scripts": {
+    "lint": "markdownlint-cli2 \"../../**/*.md\" \"#../../tools/repository/node_modules/**\""
+  },
+  "devDependencies": {
+    "markdownlint-cli2": "0.24.0",
+    "yaml": "2.9.1"
+  },
+  "overrides": {
+    "katex": "0.18.2"
+  }
+}
