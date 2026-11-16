@@ -8,7 +8,7 @@
     "lint": "markdownlint-cli2 \"../../**/*.md\" \"#../../tools/repository/node_modules/**\""
   },
   "devDependencies": {
-    "markdownlint-cli2": "0.24.0",
+    "markdownlint-cli2": "0.24.1",
     "yaml": "2.9.1"
   },
   "overrides": {
